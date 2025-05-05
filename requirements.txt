@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+python-dotenv
+opencv-python
+torch
+ultralytics
+django
+channels
+filterpy
+numba
+daphne
