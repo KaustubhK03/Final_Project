@@ -5,14 +5,15 @@ A Modern Computer Vision Model whose main task is to gather infromation from Tra
 
 ```pip install -r /path/to/requirements.txt```
 
-2) In Traffic Counting.py add
+2) In consumers.py add
 
     -> model_path(Path to yolo model)
 
-    -> video_path(Path to Input video)
+    -> csv_path(Path to output CSV)
 
-    -> out_put_video_path(Path to output Video)
+3) run the following commands and fill the details asked(Be sure to be in the project root folder)
+   ```python manage.py makemigrations```
+   ```python manage.py migrate```
+   ```python manage.py createsuperuser```
 
-    -> output_csv(Path to output CSV)
-
-3) Run Traffic Counting.py
+4) run ```python manage.py runserver```
